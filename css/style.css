@@ -25,13 +25,11 @@ body{
 	padding-right: 20px;
 	max-width: 1240px;
 	padding-top: 50px;
-
 }
 .ba-cups{
 	background: #FDDE7E;
 	min-height: 600px;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
 	padding: 15px;
 }
@@ -42,34 +40,30 @@ body{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	justify-content: space-between;
-	flex-basis: 360px;
+	flex-basis: 33.33333%;
 	margin: 0 15px;
 	padding: 35px 0;
 }
-.ba-cup--gold{
+.ba-cup:hover{
 	padding: 45px 0 55px;
+	transition: all 0.4s ease-in;
+	cursor:pointer;
 }
 .ba-cup__price{
-	font-family: 'Miso Bold', Arial, sans-serif;
+	font: 700 70px/1 'Miso Bold', Arial, sans-serif;
 	color:  #02995b;
-	font-size: 70px;
-	font-weight: 700;
-	line-height: 1;
 	margin: 0;
 }
 .ba-cup__img{
 	margin: 13px 0 30px 10px;
 	display: block;
 }
-.ba-cup__img--gold{
+.ba-cup:hover .ba-cup__img{
 	margin: 33px 0 39px 10px;
+	transition: all 0.4s ease-in;
 }
 .ba-cup__point{
-	font-family: 'Miso', Arial, sans-serif;
-	font-size: 56px;
-	font-weight: 400;
-	line-height: 1;
+	font: 400 56px/1 'Miso', Arial, sans-serif;
 	margin: 0;
 }
 .ba-cup__about{
