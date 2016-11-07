@@ -41,7 +41,7 @@ body{
 	align-items: center;
 	flex-basis: 33.33333%;
 	margin: 0 15px;
-	padding: 35px 0;
+	padding: 35px 15px;
 }
 .ba-cup:hover{
 	box-shadow: 0 4px 10px 5px #ceb567;
